@@ -1,0 +1,53 @@
+		
+		
+Fibonacci Time Data
+
+		recursive		looping
+	
+	
+		time			time
+		
+n		
+10		10200			2800
+20		1265400			3900
+30		5210500			3700
+40		513016200		4200
+45		5557807600		4500
+
+		iterations		iterations
+
+n		
+1		1				0
+2		3				0
+3		5				1
+4		9				2
+5		15				3
+6		25				4
+7		41				5
+8		67				6
+9		109				7
+10		177				8
+						
+
+
+1) What patterns do you see in the timing data? Why is there so much variation in timing data?
+		
+	The time for recursion was greater by far compared to the time used by looping. There's so much variation in the times
+	because when you use recursion, it redoes steps that have already have been. 	
+	
+2) What patterns do you see in the number of iterations data?
+
+	The recursion methods increases in iterations dramatically, whereas the iterations for looping just increases by 1 each time.
+
+3) Because number of iterations is deterministic, it should be possible to write an equation that has n as an input and iterations
+   as an output. Write an equation that fits the data for each method.
+   
+   looping: r=0/0, i(n) = 0*(0/0)^(n-1)
+   
+   recursion: n>=0, 2*(fibonacci(n+1))-1
+
+4) Which method is faster? Why?
+
+	Looping is faster compared to recursion because it takes less timer and has a lower amount of iterations.
+						
+						
